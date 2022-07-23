@@ -1,0 +1,8 @@
+#!/bin/sh
+
+T=""
+
+while $(test "$T" != "0000000000"); do
+	echo DevOps
+	T="${T}0"
+done
